@@ -1,0 +1,36 @@
+#gallery {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+
+  list-style: none;
+}
+
+.gallery-item {
+  height: 250px;
+}
+
+#counter {
+  margin-top: 30px;
+}
+
+#name-input {
+  margin-top: 30px;
+}
+
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
