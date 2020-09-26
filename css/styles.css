@@ -25,6 +25,7 @@
 
 #validation-input {
   border: 3px solid #bdbdbd;
+  outline: none;
 }
 
 #validation-input.valid {
@@ -33,4 +34,8 @@
 
 #validation-input.invalid {
   border-color: #f44336;
+}
+
+#font-size-control {
+  margin-top: 30px;
 }
