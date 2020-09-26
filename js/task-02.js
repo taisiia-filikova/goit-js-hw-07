@@ -16,8 +16,10 @@ const ingredients = [
 
 const productsList = document.querySelector('#ingredients');
 
-ingredients.map(item => {
+const ingridientsList = ingredients.map(item => {
   const items = document.createElement('li');
   items.textContent = item;
-  productsList.append(items);
+  return items;
 });
+
+productsList.append(...ingridientsList);
